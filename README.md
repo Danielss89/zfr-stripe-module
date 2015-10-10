@@ -24,7 +24,7 @@ This module registers the ZfrStripe client in your application's service manager
 You can get it by requesting the service `ZfrStripe\Client\StripeClient`:
 
 ```php
-$stripeClient = $serviceManager->get('ZfrStripe\Client\ZfrStripeClient');
+$stripeClient = $serviceManager->get('ZfrStripe\Client\StripeClient');
 ```
 
 For more information on the usage of `ZfrStripe`, please refer to [its documentation](https://github.com/zf-fr/zfr-stripe).
